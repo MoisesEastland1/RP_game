@@ -7,3 +7,15 @@ body{
     color: #ffffff;
     padding: 10px;
 }
+
+#game{
+    max-width: 500px;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #ffffff;
+}
