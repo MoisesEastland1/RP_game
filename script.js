@@ -101,7 +101,8 @@ function goTown() {
 
   function sellWeapon() {
     if(inventory.length > 1){
-
+        gold += 15;
+        
     }
   }
 
