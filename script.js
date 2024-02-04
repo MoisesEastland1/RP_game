@@ -104,6 +104,7 @@ function goTown() {
         gold += 15;
         goldText.innerText = gold;
         let currentWeapon;
+        currentWeapon = inventory.shift()
     }
   }
 
