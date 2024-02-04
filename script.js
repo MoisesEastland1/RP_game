@@ -99,6 +99,10 @@ function goTown() {
     }
   }
 
+  function sellWeapon() {
+    
+  }
+
   function fightSlime() {
 
   }
