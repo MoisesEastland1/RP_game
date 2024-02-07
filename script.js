@@ -40,7 +40,7 @@ const weapons = [
       health: 300
     }
   ]
-  
+
 const locations = [
     {
       name: "town square",
@@ -143,6 +143,10 @@ function goTown() {
 
   function fightDragon() {
     console.log("Fighting dragon.");
+  }
+
+  function goFight(){
+    
   }
 
 
