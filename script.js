@@ -154,8 +154,8 @@ function goTown() {
     goFight();
   }
 
-  function goFight(){
-    
+  function goFight() {
+    update(locations[3])
   }
 
 
