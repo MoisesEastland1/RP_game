@@ -159,6 +159,8 @@ function goTown() {
     monsterHealth = monsters[fighting].health;
     const monsterStats = document.querySelector('p');
     monsterStats.style.display = 'block';
+    monsterName.innerText = monsters[fighting].name;
+    monsterHealthText.innerText = monsterHealth;
   }
 
 
