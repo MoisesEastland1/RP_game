@@ -156,7 +156,9 @@ function goTown() {
 
   function goFight() {
     update(locations[3]);
-    monsterHealth = monsters[fighting].health
+    monsterHealth = monsters[fighting].health;
+    const monsterStats = document.querySelector('p');
+    monsterStats.style.display = 'block';
   }
 
 
