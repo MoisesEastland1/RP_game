@@ -163,6 +163,10 @@ function goTown() {
     monsterHealthText.innerText = monsterHealth;
   }
 
+  function attack(){
+    text.innerText = "The "+ monsters[fighting].name +" attack .";
+  }
+
 
 
 
