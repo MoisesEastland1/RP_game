@@ -168,6 +168,8 @@ function goTown() {
     text.innerText += " You attack it with your " + weapons[currentWeapon].name + ".";
     health -= monsters[fighting].level;
     monsterHealth -= weapons[currentWeapon].power + Math.floor(Math.random() * xp);
+    healthText.innerText = health;
+    monsterHealthText.innerText = monsterHealth;
   }
 
 
