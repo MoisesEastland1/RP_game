@@ -177,6 +177,14 @@ function goTown() {
     }
   }
 
+  function defeatMonster(){
+
+  }
+
+  function lose(){
+    
+  }
+
 
 
 
