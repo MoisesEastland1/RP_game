@@ -177,12 +177,16 @@ function goTown() {
     }
   }
 
-  function defeatMonster(){
+  function dodge(){
+    text.inner = "You dodge the attack from the " + monsters[fighting].name;
+  }
 
+  function defeatMonster(){
+    gold += Math.floor(monsters[fighting].level * 6.7)
   }
 
   function lose(){
-    
+
   }
 
 
