@@ -69,7 +69,7 @@ const locations = [
       {
         name:"kill monster",
         "button text": ["Go to town square", "Go to town square", "Go to town square"], "button functions": [goTown, goTown, goTown],
-        text: "The monster screams Arg! as it dies. You gain experience points and find gold."
+        text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
       }
   ];
 
@@ -78,6 +78,7 @@ const locations = [
   button3.onclick = fightDragon;
 
 function update(location) {
+  monsterStats.style.display = "none";
   button1.innerText = location["button text"][0];
   button2.innerText = location["button text"][1];
   button3.innerText = location["button text"][2];
@@ -162,8 +163,7 @@ function goTown() {
   function goFight() {
     update(locations[3]);
     monsterHealth = monsters[fighting].health;
-    const monsterStats = document.querySelector('p');
-    monsterStats.style.display = 'block';
+    monsterStats.style.display = "block";
     monsterName.innerText = monsters[fighting].name;
     monsterHealthText.innerText = monsterHealth;
   }
