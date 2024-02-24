@@ -195,7 +195,7 @@ function goTown() {
   }
 
   function lose(){
-
+    update(locations[5]);
   }
 
 
