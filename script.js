@@ -185,7 +185,10 @@ function goTown() {
       lose();
     } else if (monsterHealth <= 0) {
       defeatMonster();
-    }
+    } if(fighting === 2) {
+      winGame()
+    } else 
+      defeatMonster()
   }
 
   function dodge(){
