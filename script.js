@@ -207,6 +207,10 @@ function goTown() {
     return hit > 0 ? hit : 0;
   }
 
+  function isMonsterHit(){
+    return Math,randon() > .2
+  }
+
   function dodge(){
     text.inner = "You dodge the attack from the " + monsters[fighting].name;
   }
