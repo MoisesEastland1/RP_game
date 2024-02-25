@@ -208,7 +208,7 @@ function goTown() {
   }
 
   function isMonsterHit(){
-    return Math.randon() > .2
+    return Math.randon() > .2 || health < 20;
   }
 
   function dodge(){
