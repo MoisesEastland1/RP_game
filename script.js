@@ -251,6 +251,10 @@ function goTown() {
     update(locations[7])
   }
 
+  function pick(guess){
+    
+  }
+
 
 
 
