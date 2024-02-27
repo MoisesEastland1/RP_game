@@ -275,7 +275,9 @@ function goTown() {
       text.innerText += numbers[i] + "\n"
     }
     if (numbers.includes(guess)){
-      
+      gold += 20;
+      goldText.innerText = gold;
+      text.innerText += "Right! You 20 gold!"
     }
   }
 
