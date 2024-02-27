@@ -279,6 +279,11 @@ function goTown() {
       goldText.innerText = gold;
       text.innerText += "Right! You 20 gold!"
     }
+    else{
+      health -= 10;
+      healthText.innerText = health;
+      text.innerText += "Wrong! You lose 10 health!";
+    }
   }
 
 
