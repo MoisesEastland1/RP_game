@@ -268,7 +268,7 @@ function goTown() {
   function pick(guess){
     const numbers = [];
     while(numbers.length < 10){
-      
+      numbers.push((Math.random() * 11))
     }
   }
 
