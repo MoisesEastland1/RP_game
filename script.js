@@ -284,6 +284,9 @@ function goTown() {
       healthText.innerText = health;
       text.innerText += "Wrong! You lose 10 health!";
     }
+    if ( health <= 0){
+      lose()
+    }
   }
 
 
